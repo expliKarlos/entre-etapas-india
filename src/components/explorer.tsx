@@ -83,7 +83,7 @@ export function Explorer({ photos }: { photos: Record<string, Thumbnail> }) {
     if (nextQ) params.set('q', nextQ);
     if (nextStage) params.set('etapa', nextStage);
     if (nextCategory) params.set('tipo', nextCategory);
-    const url = '/visitas/' + (params.size ? '?' + params.toString() : '');
+    const url = window.location.pathname + (params.size ? '?' + params.toString() : '');
     window.history.replaceState(null, '', url);
     try {
       sessionStorage.setItem('guide-index-url', url);

@@ -11,7 +11,25 @@ export type Photo = {
   changes: string;
   variants: { src: string; width: number; height: number }[];
 };
-export const images: Record<string, Photo> = rawImages;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+function withBasePath(src: string): string {
+  if (!basePath || src.startsWith(basePath) || src.startsWith('http')) return src;
+  return `${basePath}${src}`;
+}
+
+export const images: Record<string, Photo> = Object.fromEntries(
+  Object.entries(rawImages as Record<string, Photo>).map(([key, photo]) => [
+    key,
+    {
+      ...photo,
+      variants: photo.variants.map((v) => ({
+        ...v,
+        src: withBasePath(v.src),
+      })),
+    },
+  ]),
+);
 export function getPhoto(id?: string) {
   return id ? images[id] : undefined;
 }

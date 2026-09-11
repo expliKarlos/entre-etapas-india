@@ -118,19 +118,13 @@ Para cambiar una fotografía, registra el recurso y su licencia en `images.json`
 
 Referencias técnicas: [exportación estática de Next.js](https://nextjs.org/docs/app/guides/static-exports) y [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
 
-## GitHub y publicación futura
+## Publicación en GitHub Pages
 
-El repositorio contiene el código, las fotografías locales en `public/` y las instrucciones de ejecución. `.gitignore` excluye dependencias, compilaciones, pruebas temporales, archivos de entorno privados y paquetes de entrega duplicados. Subir el código a GitHub no despliega automáticamente la web.
+El proyecto incluye un flujo automatizado en `.github/workflows/deploy.yml` para compilar y desplegar la web en **GitHub Pages**:
 
-En GitHub Codespaces o un entorno remoto de desarrollo:
+1. En GitHub, ve a **Settings** > **Pages**.
+2. En la sección **Build and deployment > Source**, selecciona **GitHub Actions**.
+3. Al hacer `push` a la rama `main`, la web se compilará, se verificarán los enlaces y se publicará automáticamente en:
+   `https://explikarlos.github.io/entre-etapas-india/`
 
-```sh
-npm ci
-npx next dev --hostname 0.0.0.0
-```
-
-Utiliza la vista del puerto 3000 del entorno y mantén su visibilidad privada. GitHub almacena el código; ejecutar una aplicación requiere un entorno como Codespaces o un alojamiento adecuado.
-
-Antes de una publicación real, define `NEXT_PUBLIC_SITE_URL` con el origen HTTPS definitivo y vuelve a compilar. Se generarán las URLs canónicas, Open Graph, datos estructurados y sitemap con ese origen. Sin esa variable se utiliza la dirección local real `http://127.0.0.1:3000`, con `noindex` y `robots.txt` restrictivo. No se inventa un dominio público.
-
-Para GitHub Pages bajo una subcarpeta también habría que preparar `basePath` y las rutas absolutas de los recursos; no se afirma compatibilidad automática con ese modo. No hay un despliegue configurado ni ejecutado.
+El proyecto soporta de forma transparente tanto el subdirectorio de GitHub Pages (`NEXT_PUBLIC_BASE_PATH`) como la ejecución local en la raíz (`npm run dev`, `npm start`) o en plataformas como Vercel sin necesidad de cambios manuales.

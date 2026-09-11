@@ -1,9 +1,10 @@
 """Validate built HTML, every internal URL, assets and previous/next sequence."""
-import json, re
+import json, os, re
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 ROOT=Path(__file__).resolve().parents[1]/'out'
+BASE_PATH=os.environ.get('NEXT_PUBLIC_BASE_PATH','').strip('/')
 class Page(HTMLParser):
  def __init__(self,html):
   super().__init__();self.links=[];self.assets=[];self.ids=set();self.h1=0;self.lang='';self.images=[];self.feed(html)
@@ -17,7 +18,10 @@ class Page(HTMLParser):
   if tag=='link' and a.get('rel') in ('stylesheet','preload'):self.assets.append(a.get('href',''))
   if tag=='img':self.images.append(a)
 def resolve(url):
- p=ROOT/unquote(urlsplit(url).path).lstrip('/')
+ path=unquote(urlsplit(url).path).lstrip('/')
+ if BASE_PATH and path.startswith(BASE_PATH):
+  path=path[len(BASE_PATH):].lstrip('/')
+ p=ROOT/path
  return p/'index.html' if p.is_dir() else p
 errors=[];all_pages={p:Page(p.read_text(encoding='utf-8')) for p in ROOT.rglob('*.html')}
 links=0
@@ -36,11 +40,10 @@ for file,p in all_pages.items():
  for src in p.assets:
   if src.startswith('http'):errors.append(f'{file}: external dependency {src}')
   elif src.startswith('/') and not resolve(src).is_file():errors.append(f'{file}: missing asset {src}')
-route=all_pages[ROOT/'ruta'/'index.html']
-sequence=[a['href'] for a in route.links if len(a.get('href','').strip('/').split('/'))==3 and a['href'].startswith('/guia/')]
-# Route contains each visit once; header sheet is closed but still in markup, so scope the main element.
+prefix=f'/{BASE_PATH}/guia/' if BASE_PATH else '/guia/'
+expected_parts=4 if BASE_PATH else 3
 raw=(ROOT/'ruta'/'index.html').read_text(encoding='utf-8').split('<main',1)[1].split('</main>',1)[0]
-sequence=[a['href'] for a in Page(raw).links if len(a.get('href','').strip('/').split('/'))==3 and a['href'].startswith('/guia/')]
+sequence=[a['href'] for a in Page(raw).links if len(a.get('href','').strip('/').split('/'))==expected_parts and a['href'].startswith(prefix)]
 if len(sequence)!=31:errors.append(f'Expected 31 route entries; got {len(sequence)}')
 for i,url in enumerate(sequence):
  p=all_pages.get(resolve(url));prev=next((a['href'] for a in p.links if a.get('rel')=='prev'),None);nxt=next((a['href'] for a in p.links if a.get('rel')=='next'),None)

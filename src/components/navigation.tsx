@@ -102,7 +102,7 @@ export function ReturnToIndex({
         if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         try {
           const saved = sessionStorage.getItem('guide-index-url');
-          if (saved && /^\/visitas\/\?/.test(saved)) {
+          if (saved && /\/visitas\/\?/.test(saved)) {
             e.preventDefault();
             window.location.assign(saved + (placeId ? '#' + placeId : ''));
           }
