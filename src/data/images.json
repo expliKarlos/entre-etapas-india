@@ -1,0 +1,674 @@
+{
+  "jagdish": {
+    "id": "jagdish",
+    "title": "Jagdish Temple, Udaipur",
+    "source": "https://commons.wikimedia.org/wiki/File:Jagdish_Temple_Udaipur.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jagdish_Temple_Udaipur.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Jagdish Temple / Udaipur",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/jagdish-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "src": "/images/jagdish-1280.webp",
+        "width": 1280,
+        "height": 1920
+      },
+      {
+        "src": "/images/jagdish-1800.webp",
+        "width": 1800,
+        "height": 2700
+      }
+    ]
+  },
+  "city-palace-udaipur": {
+    "id": "city-palace-udaipur",
+    "title": "City Palace, Udaipur",
+    "source": "https://commons.wikimedia.org/wiki/File:Udaipur_City_Palace.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/Udaipur_City_Palace.jpg",
+    "author": "Henrik Bennetsen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Udaipur - City Palace at Udaipur (Rajasthan, India)",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/city-palace-udaipur-640.webp",
+        "width": 640,
+        "height": 464
+      },
+      {
+        "src": "/images/city-palace-udaipur-1280.webp",
+        "width": 1280,
+        "height": 929
+      },
+      {
+        "src": "/images/city-palace-udaipur-1800.webp",
+        "width": 1800,
+        "height": 1306
+      }
+    ]
+  },
+  "saheliyon": {
+    "id": "saheliyon",
+    "title": "Saheliyon-ki-Bari",
+    "source": "https://commons.wikimedia.org/wiki/File:Saheliyon-ki-Bari_Fountain.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/84/Saheliyon-ki-Bari_Fountain.JPG",
+    "author": "Jstplace",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Photo of fountain at Saheliyon-ki-Bari in Udaipur, India",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/saheliyon-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "src": "/images/saheliyon-1280.webp",
+        "width": 1280,
+        "height": 1920
+      },
+      {
+        "src": "/images/saheliyon-1800.webp",
+        "width": 1800,
+        "height": 2700
+      }
+    ]
+  },
+  "fateh-sagar": {
+    "id": "fateh-sagar",
+    "title": "Fateh Sagar Lake",
+    "source": "https://commons.wikimedia.org/wiki/File:Fatehsagar_nehrugarden.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Fatehsagar_nehrugarden.jpg",
+    "author": "Maneesh Soni",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/fateh-sagar-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/images/fateh-sagar-1280.webp",
+        "width": 800,
+        "height": 532
+      },
+      {
+        "src": "/images/fateh-sagar-1800.webp",
+        "width": 800,
+        "height": 532
+      }
+    ]
+  },
+  "pichola": {
+    "id": "pichola",
+    "title": "Lake Pichola",
+    "source": "https://commons.wikimedia.org/wiki/File:Udaipur_Lake_India.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Udaipur_Lake_India.JPG",
+    "author": "Uri Sittan Tripo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Lake Pichola in Udaipur, India",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/pichola-640.webp",
+        "width": 640,
+        "height": 424
+      },
+      {
+        "src": "/images/pichola-1280.webp",
+        "width": 1280,
+        "height": 848
+      },
+      {
+        "src": "/images/pichola-1800.webp",
+        "width": 1545,
+        "height": 1024
+      }
+    ]
+  },
+  "bagore": {
+    "id": "bagore",
+    "title": "Bagore Ki Haveli",
+    "source": "https://commons.wikimedia.org/wiki/File:Bagore_ki_Haveli,_Rajasthan.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bagore_ki_Haveli%2C_Rajasthan.jpg",
+    "author": "ashish v from bangalore, india",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "A Museum in Udaipur",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/bagore-640.webp",
+        "width": 640,
+        "height": 956
+      },
+      {
+        "src": "/images/bagore-1280.webp",
+        "width": 857,
+        "height": 1280
+      },
+      {
+        "src": "/images/bagore-1800.webp",
+        "width": 857,
+        "height": 1280
+      }
+    ]
+  },
+  "ranakpur": {
+    "id": "ranakpur",
+    "title": "Ranakpur Jain temple",
+    "source": "https://commons.wikimedia.org/wiki/File:Chaumukha_Jain_temple_at_Ranakpur_in_Aravalli_range_near_Udaipur_Rajasthan_India.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chaumukha_Jain_temple_at_Ranakpur_in_Aravalli_range_near_Udaipur_Rajasthan_India.jpg",
+    "author": "Nagarjun Kandukuru",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Gorgeous 15th century Jain temples at Ranakpur, Rajasthan, India. Oct '12.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/ranakpur-640.webp",
+        "width": 640,
+        "height": 400
+      },
+      {
+        "src": "/images/ranakpur-1280.webp",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/images/ranakpur-1800.webp",
+        "width": 1280,
+        "height": 800
+      }
+    ]
+  },
+  "mehrangarh": {
+    "id": "mehrangarh",
+    "title": "Mehrangarh",
+    "source": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_sanhita.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mehrangarh_Fort_sanhita.jpg",
+    "author": "Sanhitasinha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mehrangarh Fort as seen from the northeast. Jaswant Thada is in the foreground.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/mehrangarh-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "/images/mehrangarh-1280.webp",
+        "width": 1280,
+        "height": 854
+      },
+      {
+        "src": "/images/mehrangarh-1800.webp",
+        "width": 1280,
+        "height": 854
+      }
+    ]
+  },
+  "jaswant": {
+    "id": "jaswant",
+    "title": "Jaswant Thada",
+    "source": "https://commons.wikimedia.org/wiki/File:Jaswant_Thada_Dawn.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jaswant_Thada_Dawn.jpg",
+    "author": "Flying Pharmacist",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "The Jaswant Thada mausoleum in Jodhpur, Rajasthan, India in the early morning.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/jaswant-640.webp",
+        "width": 640,
+        "height": 421
+      },
+      {
+        "src": "/images/jaswant-1280.webp",
+        "width": 1280,
+        "height": 842
+      },
+      {
+        "src": "/images/jaswant-1800.webp",
+        "width": 1600,
+        "height": 1052
+      }
+    ]
+  },
+  "umaid": {
+    "id": "umaid",
+    "title": "Umaid Bhawan Palace",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_(2233393509).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg",
+    "author": "Dan Lundberg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Hotel Umaid Bhawan Palace in Jodhpur.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/umaid-640.webp",
+        "width": 640,
+        "height": 380
+      },
+      {
+        "src": "/images/umaid-1280.webp",
+        "width": 1280,
+        "height": 760
+      },
+      {
+        "src": "/images/umaid-1800.webp",
+        "width": 1644,
+        "height": 976
+      }
+    ]
+  },
+  "red-fort": {
+    "id": "red-fort",
+    "title": "Red Fort",
+    "source": "https://commons.wikimedia.org/wiki/File:Delhi_fort.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Delhi_fort.jpg",
+    "author": "PerSona77",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This is a photo of ASI monument number",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/red-fort-640.webp",
+        "width": 640,
+        "height": 294
+      },
+      {
+        "src": "/images/red-fort-1280.webp",
+        "width": 1280,
+        "height": 588
+      },
+      {
+        "src": "/images/red-fort-1800.webp",
+        "width": 1800,
+        "height": 827
+      }
+    ]
+  },
+  "qutab": {
+    "id": "qutab",
+    "title": "Qutb Minar",
+    "source": "https://commons.wikimedia.org/wiki/File:Qutb_Minar_2022.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Qutb_Minar_2022.jpg",
+    "author": "Wasir kasab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Qutub Minar",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/qutab-640.webp",
+        "width": 640,
+        "height": 967
+      },
+      {
+        "src": "/images/qutab-1280.webp",
+        "width": 1280,
+        "height": 1935
+      },
+      {
+        "src": "/images/qutab-1800.webp",
+        "width": 1800,
+        "height": 2721
+      }
+    ]
+  },
+  "clock": {
+    "id": "clock",
+    "title": "Ghanta Ghar (Jodhpur)",
+    "source": "https://commons.wikimedia.org/wiki/File:Jodhpur_Clock_Tower.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Jodhpur_Clock_Tower.jpg",
+    "author": "Ramesh Thadani",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "The Clock Tower in the old city centre of Jodhpur, Rajasthan.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/clock-640.webp",
+        "width": 497,
+        "height": 750
+      },
+      {
+        "src": "/images/clock-1280.webp",
+        "width": 497,
+        "height": 750
+      },
+      {
+        "src": "/images/clock-1800.webp",
+        "width": 497,
+        "height": 750
+      }
+    ]
+  },
+  "amber": {
+    "id": "amber",
+    "title": "Amber Fort",
+    "source": "https://commons.wikimedia.org/wiki/File:20191219_Fort_Amber,_Amer,_Jaipur_0955_9481.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Amber Fort seen from the bank of Maotha Lake, Jaigarh Fort on the hills in the background",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/amber-640.webp",
+        "width": 640,
+        "height": 581
+      },
+      {
+        "src": "/images/amber-1280.webp",
+        "width": 1280,
+        "height": 1161
+      },
+      {
+        "src": "/images/amber-1800.webp",
+        "width": 1800,
+        "height": 1633
+      }
+    ]
+  },
+  "city-palace-jaipur": {
+    "id": "city-palace-jaipur",
+    "title": "City Palace, Jaipur",
+    "source": "https://commons.wikimedia.org/wiki/File:Chandra_Mahal,_City_Palace,_Jaipur,_20191218_0951_9043.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Chandra_Mahal%2C_City_Palace%2C_Jaipur%2C_20191218_0951_9043.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chandra Mahal, City Palace, Jaipur",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/city-palace-jaipur-640.webp",
+        "width": 640,
+        "height": 571
+      },
+      {
+        "src": "/images/city-palace-jaipur-1280.webp",
+        "width": 1280,
+        "height": 1141
+      },
+      {
+        "src": "/images/city-palace-jaipur-1800.webp",
+        "width": 1800,
+        "height": 1605
+      }
+    ]
+  },
+  "jantar": {
+    "id": "jantar",
+    "title": "Jantar Mantar, Jaipur",
+    "source": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_at_Jaipur.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Jantar_Mantar_at_Jaipur.jpg",
+    "author": "Knowledge Seeker",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "description": "Taken from the observation platform at the top of the Jantar Mantar, showing smaller architectural sundials. The Jantar Mantar is a collection of architectural astronomical instruments, built by Maharaja Jai Singh II at his then new capital of Jaipur between 1727 and 1733. The City Palace behind then Govindji Temple. Nahargarh Fort on Hill.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/jantar-640.webp",
+        "width": 640,
+        "height": 403
+      },
+      {
+        "src": "/images/jantar-1280.webp",
+        "width": 1280,
+        "height": 805
+      },
+      {
+        "src": "/images/jantar-1800.webp",
+        "width": 1800,
+        "height": 1133
+      }
+    ]
+  },
+  "hawa": {
+    "id": "hawa",
+    "title": "Hawa Mahal",
+    "source": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "East facade of Hawa Mahal, Jaipur, Rajasthan",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/hawa-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/images/hawa-1280.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/hawa-1800.webp",
+        "width": 1800,
+        "height": 1350
+      }
+    ]
+  },
+  "jal-mahal": {
+    "id": "jal-mahal",
+    "title": "Jal Mahal",
+    "source": "https://commons.wikimedia.org/wiki/File:Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "licenseUrl": "http://artlibre.org/licence/lal/en",
+    "description": "Jal Mahal (Water Palace) in Jaipur, India",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/jal-mahal-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "/images/jal-mahal-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/images/jal-mahal-1800.webp",
+        "width": 1800,
+        "height": 1200
+      }
+    ]
+  },
+  "fatehpur": {
+    "id": "fatehpur",
+    "title": "Fatehpur Sikri",
+    "source": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+    "author": "Marcin Białek",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Buland Darwaza gate to Jami Masjid mosque, Fatehpur Sikiri, India.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/fatehpur-640.webp",
+        "width": 640,
+        "height": 552
+      },
+      {
+        "src": "/images/fatehpur-1280.webp",
+        "width": 1280,
+        "height": 1105
+      },
+      {
+        "src": "/images/fatehpur-1800.webp",
+        "width": 1800,
+        "height": 1553
+      }
+    ]
+  },
+  "agra-fort": {
+    "id": "agra-fort",
+    "title": "Agra Fort",
+    "source": "https://commons.wikimedia.org/wiki/File:Agra_03-2016_10_Agra_Fort.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Agra_03-2016_10_Agra_Fort.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "licenseUrl": "http://artlibre.org/licence/lal/en",
+    "description": "Agra Fort in Agra, India.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/agra-fort-640.webp",
+        "width": 640,
+        "height": 400
+      },
+      {
+        "src": "/images/agra-fort-1280.webp",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "/images/agra-fort-1800.webp",
+        "width": 1800,
+        "height": 1125
+      }
+    ]
+  },
+  "taj": {
+    "id": "taj",
+    "title": "Taj Mahal",
+    "source": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg",
+    "author": "Yann; edited by Jim Carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Taj Mahal, Agra. FP on the English Wikipedia.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/taj-640.webp",
+        "width": 640,
+        "height": 421
+      },
+      {
+        "src": "/images/taj-1280.webp",
+        "width": 1280,
+        "height": 841
+      },
+      {
+        "src": "/images/taj-1800.webp",
+        "width": 1800,
+        "height": 1183
+      }
+    ]
+  },
+  "india-gate": {
+    "id": "india-gate",
+    "title": "India Gate",
+    "source": "https://commons.wikimedia.org/wiki/File:India_Gate_in_the_Evening.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/India_Gate_in_the_Evening.jpg",
+    "author": "Incredible India Portal",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "India Gate in the Evening",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/india-gate-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/images/india-gate-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/india-gate-1800.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "dilli-haat": {
+    "id": "dilli-haat",
+    "title": "Dilli Haat",
+    "source": "https://commons.wikimedia.org/wiki/File:Dilli_Haat_-_INA.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Dilli_Haat_-_INA.jpg",
+    "author": "JyotiPN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Dilli Haat is a paid entrance open air market in Delhi run by Delhi Tourism and Transportation Development Corporation.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/dilli-haat-640.webp",
+        "width": 640,
+        "height": 630
+      },
+      {
+        "src": "/images/dilli-haat-1280.webp",
+        "width": 1280,
+        "height": 1261
+      },
+      {
+        "src": "/images/dilli-haat-1800.webp",
+        "width": 1800,
+        "height": 1773
+      }
+    ]
+  },
+  "humayun": {
+    "id": "humayun",
+    "title": "Humayun's tomb",
+    "source": "https://commons.wikimedia.org/wiki/File:Humayun%27s_Tomb,_Exterior_View,_New_Delhi.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Humayun%27s_Tomb%2C_Exterior_View%2C_New_Delhi.jpg",
+    "author": "Shrutisuman13",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "One of the clicks that says \"When the cover is appealing, you feel like opening the book and reading it through and through.\" This sight has spelled the same magic and attracted me to know more about it.",
+    "changes": "Redimensionada y convertida a WebP; encuadre adaptable en la interfaz.",
+    "variants": [
+      {
+        "src": "/images/humayun-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "src": "/images/humayun-1280.webp",
+        "width": 1280,
+        "height": 851
+      },
+      {
+        "src": "/images/humayun-1800.webp",
+        "width": 1800,
+        "height": 1197
+      }
+    ]
+  }
+}
